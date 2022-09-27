@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/b9lab/checkers/x/checkers/rules" /// https://github.com/cosmos/b9-checkers-academy-draft/issues/35
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/kempy007/cosmos-checkers/x/checkers/rules" /// https://github.com/cosmos/b9-checkers-academy-draft/issues/35
 )
 
 func (storedGame StoredGame) GetBlackAddress() (black sdk.AccAddress, err error) {
