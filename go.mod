@@ -1,4 +1,4 @@
-module github.com/alice/checkers
+module github.com/kempy007/cosmos-checkers
 
 go 1.18
 
