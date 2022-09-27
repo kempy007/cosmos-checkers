@@ -4,7 +4,7 @@ info:
   name: ''
   description: ''
 paths:
-  /alice/checkers/checkers/params:
+  /kempy007/cosmos-checkers/checkers/params:
     get:
       summary: Parameters queries the parameters of the module.
       operationId: AliceCheckersCheckersParams
@@ -40,7 +40,7 @@ paths:
                   additionalProperties: {}
       tags:
         - Query
-  /alice/checkers/checkers/stored_game:
+  /kempy007/cosmos-checkers/checkers/stored_game:
     get:
       summary: Queries a list of StoredGame items.
       operationId: AliceCheckersCheckersStoredGameAll
@@ -170,7 +170,7 @@ paths:
           type: boolean
       tags:
         - Query
-  '/alice/checkers/checkers/stored_game/{index}':
+  '/kempy007/cosmos-checkers/checkers/stored_game/{index}':
     get:
       summary: Queries a StoredGame by index.
       operationId: AliceCheckersCheckersStoredGame
@@ -218,7 +218,7 @@ paths:
           type: string
       tags:
         - Query
-  /alice/checkers/checkers/system_info:
+  /kempy007/cosmos-checkers/checkers/system_info:
     get:
       summary: Queries a SystemInfo by index.
       operationId: AliceCheckersCheckersSystemInfo

@@ -19,7 +19,7 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	tmdb "github.com/tendermint/tm-db"
 
-	"github.com/alice/checkers/app"
+	"github.com/kempy007/cosmos-checkers/app"
 )
 
 type (

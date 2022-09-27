@@ -104,11 +104,11 @@ import (
 	"github.com/ignite/cli/ignite/pkg/cosmoscmd"
 	"github.com/ignite/cli/ignite/pkg/openapiconsole"
 
-	"github.com/alice/checkers/docs"
+	"github.com/kempy007/cosmos-checkers/docs"
 
-	checkersmodule "github.com/alice/checkers/x/checkers"
-	checkersmodulekeeper "github.com/alice/checkers/x/checkers/keeper"
-	checkersmoduletypes "github.com/alice/checkers/x/checkers/types"
+	checkersmodule "github.com/kempy007/cosmos-checkers/x/checkers"
+	checkersmodulekeeper "github.com/kempy007/cosmos-checkers/x/checkers/keeper"
+	checkersmoduletypes "github.com/kempy007/cosmos-checkers/x/checkers/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

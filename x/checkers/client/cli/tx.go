@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/alice/checkers/x/checkers/types"
+	"github.com/kempy007/cosmos-checkers/x/checkers/types"
 )
 
 var (
